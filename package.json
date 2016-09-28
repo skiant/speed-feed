@@ -1,0 +1,17 @@
+{
+  "name": "speed-feed",
+  "version": "1.0.0",
+  "description": "Speedtest.net reporter to Adafruit.io stream",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Mathieu Dubois",
+  "license": "MIT",
+  "dependencies": {
+    "adafruit-io": "^4.4.0",
+    "speedtest-net": "^1.2.7",
+    "yargs": "^5.0.0"
+  }
+}
